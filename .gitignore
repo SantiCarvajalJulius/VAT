@@ -1,0 +1,11 @@
+# Ignorar todo el contenido de jcom2, jcom y rj
+jcom2/*
+jcom/*
+rj/*
+
+# Exceptuar el archivo .gitkeep en cada carpeta
+!jcom2/.gitkeep
+!jcom/.gitkeep
+!rj/.gitkeep
+
+.env
